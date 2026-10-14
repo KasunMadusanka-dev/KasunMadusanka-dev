@@ -1,0 +1,143 @@
+<svg width="1000" height="300" viewBox="0 0 1000 300" xmlns="http://www.w3.org/2000/svg">
+  <title>Kasun Madusanka - Developer</title>
+  <defs>
+    <clipPath id="round"><rect width="1000" height="300" rx="16"/></clipPath>
+
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#111c3a"/>
+    </linearGradient>
+
+    <linearGradient id="txt" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00f7ff">
+        <animate attributeName="stop-color" values="#00f7ff;#a371f7;#00f7ff" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="1" stop-color="#a371f7">
+        <animate attributeName="stop-color" values="#a371f7;#00f7ff;#a371f7" dur="6s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <radialGradient id="orbA"><stop offset="0" stop-color="#00f7ff" stop-opacity=".35"/><stop offset="1" stop-color="#00f7ff" stop-opacity="0"/></radialGradient>
+    <radialGradient id="orbB"><stop offset="0" stop-color="#a371f7" stop-opacity=".35"/><stop offset="1" stop-color="#a371f7" stop-opacity="0"/></radialGradient>
+
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#22304f" stroke-width="1"/>
+    </pattern>
+
+    <filter id="glow" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b">
+        <animate attributeName="stdDeviation" values="2;5;2" dur="3s" repeatCount="indefinite"/>
+      </feGaussianBlur>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <clipPath id="typeclip">
+      <rect x="203" y="178" height="40" width="0">
+        <animate attributeName="width" values="0;594;594;0" keyTimes="0;0.45;0.9;1" dur="9s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#round)">
+    <!-- Background -->
+    <rect width="1000" height="300" fill="url(#bg)"/>
+
+    <!-- Moving grid -->
+    <g>
+      <rect x="0" y="-40" width="1000" height="380" fill="url(#grid)" opacity=".7"/>
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="0 40" dur="3s" repeatCount="indefinite"/>
+    </g>
+
+    <!-- Glowing orbs -->
+    <circle cx="150" cy="60" r="160" fill="url(#orbA)">
+      <animate attributeName="r" values="140;190;140" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="860" cy="250" r="170" fill="url(#orbB)">
+      <animate attributeName="r" values="190;140;190" dur="6s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Binary / code rain -->
+    <g font-family="Consolas, 'Courier New', monospace" font-size="14" fill="#00f7ff" opacity=".22">
+      <g><text x="40" y="0"><tspan x="40" dy="16">1</tspan><tspan x="40" dy="16">0</tspan><tspan x="40" dy="16">1</tspan><tspan x="40" dy="16">1</tspan><tspan x="40" dy="16">0</tspan><tspan x="40" dy="16">{</tspan><tspan x="40" dy="16">0</tspan><tspan x="40" dy="16">1</tspan></text>
+        <animateTransform attributeName="transform" type="translate" from="0 -150" to="0 320" dur="7s" begin="-2s" repeatCount="indefinite"/></g>
+      <g><text x="120" y="0"><tspan x="120" dy="16">0</tspan><tspan x="120" dy="16">1</tspan><tspan x="120" dy="16">&lt;</tspan><tspan x="120" dy="16">0</tspan><tspan x="120" dy="16">1</tspan><tspan x="120" dy="16">1</tspan><tspan x="120" dy="16">0</tspan><tspan x="120" dy="16">/</tspan></text>
+        <animateTransform attributeName="transform" type="translate" from="0 -150" to="0 320" dur="9s" begin="-6s" repeatCount="indefinite"/></g>
+      <g><text x="200" y="0"><tspan x="200" dy="16">1</tspan><tspan x="200" dy="16">1</tspan><tspan x="200" dy="16">0</tspan><tspan x="200" dy="16">;</tspan><tspan x="200" dy="16">1</tspan><tspan x="200" dy="16">0</tspan><tspan x="200" dy="16">1</tspan><tspan x="200" dy="16">0</tspan></text>
+        <animateTransform attributeName="transform" type="translate" from="0 -150" to="0 320" dur="6s" begin="-1s" repeatCount="indefinite"/></g>
+      <g><text x="290" y="0"><tspan x="290" dy="16">0</tspan><tspan x="290" dy="16">}</tspan><tspan x="290" dy="16">1</tspan><tspan x="290" dy="16">0</tspan><tspan x="290" dy="16">0</tspan><tspan x="290" dy="16">1</tspan><tspan x="290" dy="16">1</tspan><tspan x="290" dy="16">0</tspan></text>
+        <animateTransform attributeName="transform" type="translate" from="0 -150" to="0 320" dur="8s" begin="-4s" repeatCount="indefinite"/></g>
+      <g><text x="380" y="0"><tspan x="380" dy="16">1</tspan><tspan x="380" dy="16">0</tspan><tspan x="380" dy="16">1</tspan><tspan x="380" dy="16">=</tspan><tspan x="380" dy="16">0</tspan><tspan x="380" dy="16">1</tspan><tspan x="380" dy="16">0</tspan><tspan x="380" dy="16">1</tspan></text>
+        <animateTransform attributeName="transform" type="translate" from="0 -150" to="0 320" dur="10s" begin="-8s" repeatCount="indefinite"/></g>
+      <g><text x="620" y="0"><tspan x="620" dy="16">0</tspan><tspan x="620" dy="16">1</tspan><tspan x="620" dy="16">0</tspan><tspan x="620" dy="16">&gt;</tspan><tspan x="620" dy="16">1</tspan><tspan x="620" dy="16">1</tspan><tspan x="620" dy="16">0</tspan><tspan x="620" dy="16">0</tspan></text>
+        <animateTransform attributeName="transform" type="translate" from="0 -150" to="0 320" dur="7.5s" begin="-3s" repeatCount="indefinite"/></g>
+      <g><text x="710" y="0"><tspan x="710" dy="16">1</tspan><tspan x="710" dy="16">(</tspan><tspan x="710" dy="16">0</tspan><tspan x="710" dy="16">1</tspan><tspan x="710" dy="16">0</tspan><tspan x="710" dy="16">)</tspan><tspan x="710" dy="16">1</tspan><tspan x="710" dy="16">1</tspan></text>
+        <animateTransform attributeName="transform" type="translate" from="0 -150" to="0 320" dur="6.5s" begin="-5s" repeatCount="indefinite"/></g>
+      <g><text x="800" y="0"><tspan x="800" dy="16">0</tspan><tspan x="800" dy="16">0</tspan><tspan x="800" dy="16">1</tspan><tspan x="800" dy="16">0</tspan><tspan x="800" dy="16">1</tspan><tspan x="800" dy="16">/</tspan><tspan x="800" dy="16">0</tspan><tspan x="800" dy="16">1</tspan></text>
+        <animateTransform attributeName="transform" type="translate" from="0 -150" to="0 320" dur="8.5s" begin="-7s" repeatCount="indefinite"/></g>
+      <g><text x="890" y="0"><tspan x="890" dy="16">1</tspan><tspan x="890" dy="16">0</tspan><tspan x="890" dy="16">{</tspan><tspan x="890" dy="16">1</tspan><tspan x="890" dy="16">0</tspan><tspan x="890" dy="16">1</tspan><tspan x="890" dy="16">0</tspan><tspan x="890" dy="16">1</tspan></text>
+        <animateTransform attributeName="transform" type="translate" from="0 -150" to="0 320" dur="7s" begin="-1.5s" repeatCount="indefinite"/></g>
+      <g><text x="965" y="0"><tspan x="965" dy="16">0</tspan><tspan x="965" dy="16">1</tspan><tspan x="965" dy="16">1</tspan><tspan x="965" dy="16">0</tspan><tspan x="965" dy="16">;</tspan><tspan x="965" dy="16">1</tspan><tspan x="965" dy="16">0</tspan><tspan x="965" dy="16">0</tspan></text>
+        <animateTransform attributeName="transform" type="translate" from="0 -150" to="0 320" dur="9.5s" begin="-4.5s" repeatCount="indefinite"/></g>
+    </g>
+
+    <!-- Scan line -->
+    <rect x="0" y="0" width="1000" height="2" fill="#00f7ff" opacity=".25">
+      <animate attributeName="y" from="-4" to="304" dur="4s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Terminal window dots -->
+    <circle cx="36" cy="34" r="6" fill="#ff5f56"/>
+    <circle cx="58" cy="34" r="6" fill="#ffbd2e"/>
+    <circle cx="80" cy="34" r="6" fill="#27c93f"/>
+
+    <!-- Floating code symbols -->
+    <g font-family="Consolas, 'Courier New', monospace" font-size="28" font-weight="bold">
+      <text x="90" y="245" fill="#00f7ff" opacity=".55">&lt;/&gt;
+        <animate attributeName="y" values="245;228;245" dur="4s" repeatCount="indefinite"/></text>
+      <text x="850" y="75" fill="#a371f7" opacity=".6">{ }
+        <animate attributeName="y" values="75;60;75" dur="5s" repeatCount="indefinite"/></text>
+      <text x="905" y="235" fill="#00f7ff" opacity=".5">=&gt;
+        <animate attributeName="y" values="235;220;235" dur="3.5s" repeatCount="indefinite"/></text>
+      <text x="75" y="150" fill="#a371f7" opacity=".5">[ ]
+        <animate attributeName="y" values="150;135;150" dur="4.5s" repeatCount="indefinite"/></text>
+      <text x="925" y="150" fill="#00f7ff" opacity=".45">01
+        <animate attributeName="opacity" values=".15;.6;.15" dur="2.5s" repeatCount="indefinite"/></text>
+    </g>
+
+    <!-- Terminal line -->
+    <text x="500" y="98" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="16" fill="#7ee787" opacity="0">
+      kasun@dev:~$ whoami
+      <animate attributeName="opacity" from="0" to="1" dur="1.2s" fill="freeze"/>
+    </text>
+
+    <!-- Name -->
+    <text x="500" y="162" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="62" font-weight="800"
+          fill="url(#txt)" filter="url(#glow)" textLength="600" lengthAdjust="spacingAndGlyphs" opacity="0">
+      Kasun Madusanka
+      <animate attributeName="opacity" from="0" to="1" dur="1.5s" begin="0.4s" fill="freeze"/>
+    </text>
+
+    <!-- Typing subtitle -->
+    <g clip-path="url(#typeclip)">
+      <text x="203" y="206" font-family="Consolas, 'Courier New', monospace" font-size="22" fill="#e6edf3"
+            textLength="594" lengthAdjust="spacing">Developer | Problem Solver | Lifelong Learner</text>
+    </g>
+    <rect y="184" width="3" height="28" fill="#00f7ff">
+      <animate attributeName="x" values="203;797;797;203" keyTimes="0;0.45;0.9;1" dur="9s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Animated waves -->
+    <g>
+      <path d="M0 268 Q125 238 250 268 T500 268 T750 268 T1000 268 T1250 268 T1500 268 T1750 268 T2000 268 V300 H0 Z" fill="#a371f7" opacity=".25"/>
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-500 0" dur="9s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <path d="M-500 278 Q-375 252 -250 278 T0 278 T250 278 T500 278 T750 278 T1000 278 T1250 278 T1500 278 V300 H-500 Z" fill="#00f7ff" opacity=".18"/>
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="500 0" dur="13s" repeatCount="indefinite"/>
+    </g>
+  </g>
+
+  <!-- Border -->
+  <rect x="1" y="1" width="998" height="298" rx="16" fill="none" stroke="#30363d" stroke-width="2"/>
+</svg>
