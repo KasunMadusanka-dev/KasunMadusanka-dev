@@ -77,7 +77,7 @@
 
     <!-- Terminal line -->
     <text x="500" y="52" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="15" fill="#7ee787" opacity="0">
-      kasun@dev:~$ echo "Thank you for visiting!"
+      ~/kasun $ npm run start "Thank you for visiting!"
       <animate attributeName="opacity" from="0" to="1" dur="1.2s" fill="freeze"/>
     </text>
 
