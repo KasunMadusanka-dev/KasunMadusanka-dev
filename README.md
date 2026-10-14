@@ -1,32 +1,110 @@
-<h1 align="center">Hi..., I'm Kasun Madusanka</h1>
-<h3 align="center">Turning logic into life with Java, Vb.net, and the Web Stack. Currently exploring the intersection of data, systems, and design.</h3>
+<div align="center">
 
+<img src="./assets/header.svg" alt="Kasun Madusanka - Developer" width="100%"/>
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00F7FF&center=true&vCenter=true&width=600&lines=Hi+there!+%F0%9F%91%8B+I'm+Kasun;Full-Stack+Developer;Building+Web+%26+Mobile+Apps;Always+Learning+New+Things+%F0%9F%9A%80" alt="Typing SVG" />
+</a>
 
-#
+<br/>
 
-- 🌱 I’m currently learning **Java, C, TypeScript, JavaScript**
+![Profile Views](https://hits.sh/github.com/KasunMadusanka-dev.svg?style=for-the-badge&label=Profile%20Views&color=0e75b6)
+![Followers](https://img.shields.io/github/followers/KasunMadusanka-dev?style=for-the-badge&logo=github&color=8957e5)
+![Stars](https://img.shields.io/github/stars/KasunMadusanka-dev?style=for-the-badge&logo=github&color=f0883e)
 
-- 📫 How to reach me **kasunmadusankai2025@gmail.com**
- 
-#
+</div>
 
-<h3 align="center">Connect with me:</h3>
-<p align="center">
-<a href="https://fb.com/kasun madushanka" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="kasun madushanka" height="30" width="40" /></a>
-</p>
+---
 
-#
+## 👨‍💻 About Me
 
-<h3 align="center">Languages and Tools:</h3>
+<img align="right" width="300" src="https://raw.githubusercontent.com/Trinea/trinea/master/src/octocat.gif" alt="coding gif"/>
 
-<p align="center"> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="50" height="50"/></a>
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="50" height="50"/></a>
-<a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="50" height="50"/>
-<a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="60" height="60"/> </a>
-<a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="60" height="60"/> </a>
-<a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="50" height="50"/> </a>
-<a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="70" height="70"/></a>
-<a href="https://www.php.net" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="60" height="60"/> </a>
-<a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="50" height="50"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="50" height="50"/> </a>  </p>
+- 🔭 I'm currently working on **a vehicle tracking system** (web + mobile)
+- 🌱 I'm learning **new frameworks and cloud technologies**
+- 👯 I'm looking to collaborate on **open-source projects**
+- 💬 Ask me about **web development, mobile apps, and databases**
+- ⚡ Fun fact: **I turn coffee into code ☕**
 
+<br/><br/>
 
+---
+
+## 🛠️ Tech Stack
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nodejs,mysql,python,java,git,github,figma,vscode&theme=dark" />
+
+</div>
+
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=KasunMadusanka-dev&show_icons=true&theme=tokyonight&hide_border=true" />
+
+<br/>
+
+<img src="https://streak-stats.demolab.com/?user=KasunMadusanka-dev&theme=tokyonight&hide_border=true" />
+
+</div>
+
+---
+
+## 🏆 Achievements
+
+<div align="center">
+
+![Open Source](https://img.shields.io/badge/Open%20Source-Contributor-8957e5?style=for-the-badge&logo=opensourceinitiative&logoColor=white)
+![Learning](https://img.shields.io/badge/Always-Learning-00f7ff?style=for-the-badge&logo=academia&logoColor=black)
+![Full Stack](https://img.shields.io/badge/Full%20Stack-Developer-f0883e?style=for-the-badge&logo=stackblitz&logoColor=white)
+![Problem Solver](https://img.shields.io/badge/Problem-Solver-3fb950?style=for-the-badge&logo=leetcode&logoColor=white)
+
+</div>
+
+---
+
+## 📌 Featured Projects
+
+<div align="center">
+
+### 🚗 Vehicle Tracking System
+
+![Web App](https://img.shields.io/badge/Web-Application-0e75b6?style=for-the-badge&logo=googlechrome&logoColor=white)
+![Mobile App](https://img.shields.io/badge/Mobile-App-3fb950?style=for-the-badge&logo=android&logoColor=white)
+![Status](https://img.shields.io/badge/Status-In%20Progress-f0883e?style=for-the-badge)
+
+A web and mobile platform that lets vehicle owners monitor all their vehicles in one place, with live maps and smart alerts.
+
+</div>
+
+<div align="center">
+
+🚧 More projects coming soon...
+
+</div>
+
+---
+
+## 🤝 Connect With Me
+
+<div align="center">
+
+<a href="https://linkedin.com/in/YOUR_LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+<a href="mailto:kasunmadusankai2025@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+<a href="https://facebook.com/YOUR_FACEBOOK"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white"/></a>
+<a href="https://instagram.com/YOUR_INSTAGRAM"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/></a>
+
+</div>
+
+---
+
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=F7C948&center=true&vCenter=true&width=500&lines=Thanks+for+visiting+my+profile!+%E2%9D%A4%EF%B8%8F;Let's+build+something+awesome+together!" />
+
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer" width="100%"/>
