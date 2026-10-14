@@ -107,4 +107,4 @@ A web and mobile platform that lets vehicle owners monitor all their vehicles in
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer" width="100%"/>
+<img src="./assets/footer.svg" alt="Thanks for visiting" width="100%"/>
