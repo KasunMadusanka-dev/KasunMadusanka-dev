@@ -106,7 +106,7 @@
 
     <!-- Terminal line -->
     <text x="500" y="98" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="16" fill="#7ee787" opacity="0">
-      kasun@dev:~$ whoami
+      ~/kasun $ npm run start
       <animate attributeName="opacity" from="0" to="1" dur="1.2s" fill="freeze"/>
     </text>
 
